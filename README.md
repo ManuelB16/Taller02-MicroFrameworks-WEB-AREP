@@ -1,5 +1,4 @@
 # Microframework Web en Java para Servicios REST y Archivos Estáticos
-
 Este proyecto implementa un **microframework web en Java** que permite:
 Definir servicios REST con funciones Lambda.  
 Manejar parámetros de consulta (**Query Parameters**).  
