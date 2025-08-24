@@ -131,7 +131,7 @@ https://github.com/user-attachments/assets/55dcdeab-1104-4aff-b5ad-3ae5758ae833
 
 ## Licencia
 Este proyecto está licenciado bajo **MIT**.  
-Consulta el archivo [LICENSE.md](LICENSE.md) para más detalles.  
+Consulta el archivo [License](LICENSE.md) para más detalles.  
 
 ---
 
