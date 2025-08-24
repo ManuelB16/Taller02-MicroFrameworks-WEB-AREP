@@ -9,8 +9,6 @@ import arep.taller2.web.Anotaciones.RestController;
  */
 @RestController
 public class GreetingController {
-	//Método static
-    //Anotación quie define los métodos a ejecutar
 	@GetMapping("/greeting")
 	public static String greeting(@ReParam(value = "name", defaultValue = "World") String name) {
 		return "Hola " + name;
