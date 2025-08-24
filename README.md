@@ -55,21 +55,11 @@ Ejemplos de rutas soportadas:
 
 ---
 
-## Diagramas
-
-### Arquitectura
-![image](https://github.com/user-attachments/assets/ee3336ae-1ca3-40f2-883f-e43ccb439cce)
-
-### Diagrama de Clases
-![image](https://github.com/user-attachments/assets/26319417-3811-4ad4-8b30-28ff1de7ccc5)
-
----
-
 ## 🚀 Instalación
 
-🔧 Clona el repositorio y compílalo:
+🔧 Se clona el repositorio y compilar:
 
-```bash
+```
 git clone https://github.com/ManuelB16/Taller02-MicroFrameworks-WEB-AREP
 cd Taller02-MicroFrameworks-WEB-AREP
 git checkout Taller02-MicroFrameworks-WEB-AREP
@@ -82,7 +72,7 @@ mvn clean compile
 
 Levanta el servidor con:
 
-```bash
+```
 mvn exec:java -Dexec.mainClass="arep.taller2.web.Microframework"
 ```
 
@@ -100,19 +90,19 @@ mvn test
 ```
 
 ### Casos de prueba principales
-- ✅ **testApiSaludo** → `/api/saludo` retorna HTTP 200 OK + JSON esperado.  
-- ✅ **testApiFecha** → `/api/fecha` incluye `"fecha"` en la respuesta.  
-- ✅ **testApiNotFound** → rutas inválidas devuelven **404 Not Found**.  
-- ✅ **testApiPostSimulado** → verifica que POST con JSON se procesa bien.  
-- ✅ **testApiHello** → `/api/hello` responde correctamente.  
+- **testApiSaludo** → `/api/saludo` retorna HTTP 200 OK + JSON esperado.  
+- **testApiFecha** → `/api/fecha` incluye `"fecha"` en la respuesta.  
+- **testApiNotFound** → rutas inválidas devuelven **404 Not Found**.  
+- **testApiPostSimulado** → verifica que POST con JSON se procesa bien.  
+- **testApiHello** → `/api/hello` responde correctamente.  
 
-📌 Ejemplo de salida:
+Ejemplo de salida:
 
 <img width="746" height="135" alt="image" src="https://github.com/user-attachments/assets/f0cae16f-5e6b-4241-a0bf-d32bf35d283f" />
 
 ---
 
-## ✨ Características destacadas
+## Características destacadas
 
 1. **Frontend responsivo**  
    - Diseño minimalista con tonos morados.  
@@ -129,25 +119,25 @@ mvn test
 
 ---
 
-## 🧩 Demostración Visual
+## Demostración Visual
 
 https://github.com/user-attachments/assets/55dcdeab-1104-4aff-b5ad-3ae5758ae833
 
 ---
 
-## 👨‍💻 Autor
+## Autor
 
 - **Manuel Felipe Barrera** – [ManuelB16](https://github.com/ManuelB16)  
 
 ---
 
-## 📜 Licencia
+## Licencia
 Este proyecto está licenciado bajo **MIT**.  
 Consulta el archivo [LICENSE.md](LICENSE.md) para más detalles.  
 
 ---
 
-## 🙌 Agradecimientos
+## Agradecimientos
 Agradecimiento especial al **profesor Daniel Benavides** por su guía y apoyo en el desarrollo de este proyecto.  
 
 ---
