@@ -1,4 +1,3 @@
-
 # Microframework Web en Java para Servicios REST y Archivos Estáticos
 
 Este proyecto implementa un **microframework web en Java** que permite:
@@ -85,7 +84,7 @@ Luego abre en tu navegador:
 
 Los tests garantizan que los endpoints REST funcionen correctamente:  
 
-```bash
+```
 mvn test
 ```
 
@@ -105,7 +104,7 @@ Ejemplo de salida:
 ## Características destacadas
 
 1. **Frontend responsivo**  
-   - Diseño minimalista con tonos morados.  
+   - Diseño limpio con tonos claros.  
    - Compatible con móviles y escritorio.  
    - Panel de búsqueda de archivos.  
 
